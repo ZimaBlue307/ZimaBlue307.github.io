@@ -16,7 +16,7 @@ Plain static site — no build step.
 Open `index.html` in a browser, or start a local server:
 
 ```bash
-cd /mnt/c/career-plan/homepage
+cd /home/huyiran/career-plan/homepage
 python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
@@ -26,13 +26,13 @@ python3 -m http.server 8000
 Compile the 2-page CV in the CV repo first, then copy it over. Keep the file name unchanged so the download link keeps working:
 
 ```bash
-cp /mnt/c/career-plan/CV/6ab498860b8680bb06c331f4/build/CV-2page.pdf /mnt/c/career-plan/homepage/assets/CV-Yiran-Hu.pdf
+cp /home/huyiran/career-plan/docs/CV/build/CV-2page.pdf /home/huyiran/career-plan/homepage/assets/CV-Yiran-Hu.pdf
 ```
 
 ## Commit and publish
 
 ```bash
-cd /mnt/c/career-plan/homepage
+cd /home/huyiran/career-plan/homepage
 git add -A
 git commit -m "Update homepage"
 git push
